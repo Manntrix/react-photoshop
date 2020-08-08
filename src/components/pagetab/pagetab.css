@@ -1,0 +1,240 @@
+#page-tab ul.nav-tabs li a{
+    padding: 0px 50px;
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    border-radius: unset;
+    background: #424242;
+    border: none;
+    border-right: 1px solid black;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+#page-tab .nav-tabs .nav-link:hover{
+    background: #535353;
+}
+#page-tab .nav-link.active{
+    background: #535353;
+}
+#page-tab .nav-tabs{
+    border: 1px solid black;
+}
+/* #page-tab .nav-item::after{
+    content: "";
+    background-image: url(img/cross.png);
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+} */
+
+#page-tab img.nicross {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    transform: translate(-50%,-50%);
+    height: 8px;
+}
+#page-tab img.nicross:hover{
+    border: 1px solid #535353;
+}
+#page-tab .nav-item{
+    position: relative;
+}
+.fade:not(.show) {
+    opacity: 1 !important; 
+}
+#page-tab .col-sm-8{
+    display: block;
+    margin: 0 auto;
+    /* background: white; */
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tabcross{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    height: 8px;
+    cursor: pointer;
+}
+.top-head{
+    height: 40px;
+    line-height: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.top-head .circle-r{
+    background: #6286c1;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.wbody{
+    background: #6286c1;
+    height: 560px;
+    padding: 20px 0;
+}
+.wbody img {
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.wbody .box-1{
+    background-color: #4973ae;
+    width: 90%;
+    margin: 0 auto;
+    height: 150px;
+    padding: 10px;
+    line-height: 125px;
+}
+.wbody .box-1 .type-it{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.2;
+}
+.wbody .box-2{
+    margin: 25px auto;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.wbody .box-2 .sub-box{
+    width: 20%;
+    height: 100%;
+    background: #4973ae;
+}
+.wbody .box-3{
+    background-color:  #4973ae;
+    margin: 25px auto;
+    width: 90%;
+    height: 20px;
+}
+.wordpress .wptop{
+    background: #22282c;
+    height: 30px;
+    display: flex;
+}
+.wordpress .wpside{
+    background: #22282c;
+    height: 570px;
+    width: 20%;
+    float: left;
+}
+.wordpress .wpside-2{
+    background:#f1f1f1;
+    float: left;
+    height: 570px;
+    width: 80%;
+}
+
+.wordpress ul{
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+.wordpress ul li a{
+    color: #eee;
+    text-decoration: none;
+}
+.wordpress .dashicons{
+    color: #9fa3a9;
+}
+.wordpress ul li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.wordpress ul li i{
+    margin-right: 10px;
+}
+.wptop .dashicons{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.wptop p{
+    color: #eee;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.pinterest{
+    background: white;
+    height: 600px;
+    width: 100%;
+}
+.pinterest .topbar{
+    height: 50px;
+    position: relative;
+    line-height: 50px;
+    display: flex;
+}
+.pinterestlogo {
+    height: 30px;
+    width: 30px;
+}
+.pinterestlogo img{
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+.searchbar input {
+    height: 30px;
+    width: 600px;
+    background: #EFEFEF;
+    border: none;
+    padding: 18px 50px;
+}
+.searchbar input::placeholder{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: bold
+}
+.pinterest{
+    overflow: scroll;
+}
+.pinterest .searchbar{
+    margin-left: 30px;
+}
+.searchicon {
+    position: absolute;
+    left: 70px;
+}
+.searchicon path{
+    fill:#8E8E8E;
+}
+.topbar span{
+    padding: 0px 15px;
+    margin-left: 4px;
+    color: #A9A9A9;
+    font-weight: bold;
+    
+}
+.topbar span:hover{
+    background: #EFEFEF;
+    border-radius: 50px;
+}
+.topbar .activepi{
+    color: #000;
+    font-weight: bold;
+}
+.topbar .chat{
+    fill: #8E8E8E;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.topbar .notifica, .topbar .dotdot{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pibody img{
+    width: 100%;
+    height: 100%;
+}

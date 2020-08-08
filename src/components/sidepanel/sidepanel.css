@@ -1,0 +1,192 @@
+#sidepanel{
+    
+    width: 300px;
+   float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+    
+}
+#sidepanel .paneltop{
+    width: 100%;
+    height: 15px;
+    background: #424242;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#sidepanel .panelbody{
+    height: 400px;
+    background: #535353;
+    width: 100%;
+}
+
+#layer-tab .nav-item{
+    position: relative;
+}
+#layer-tab .nav-link{
+    color: #fff;
+    font-size: 9px;
+    text-align: left;
+    border-radius: unset;
+    background: #4d4d4d;
+    border: none;
+    border-right: 1px solid black;
+    padding: 6px 22px;
+}
+#layer-tab .nav-tabs{
+    border: none;
+}
+#layer-tab .nav-tabs .nav-link:hover{
+    background: #535353;
+}
+#layer-tab .nav-tabs, #layer-tab .nav-link{
+    border-bottom: 1px solid black;
+}
+#layer-tab .nav-link.active{
+    background: #535353;
+    border-bottom:1px solid transparent;
+}
+#layer-tab .sec-1{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+}
+#layer-tab .sec-1 button, #layer-tab .sec-2 .button1{
+    background: #454545;
+    border: none;
+    padding: unset;
+    outline: none;
+    font-size: 10px;
+    padding: 1px 40px;
+    color: white;
+    border: 1px solid #80808087;
+}
+#layer-tab .sec-2 .button2{
+    background: #454545;
+    border: none;
+    padding: unset;
+    outline: none;
+    font-size: 10px;
+    padding: 1px 20px;
+    color: white;
+    border: 1px solid #80808087;
+}
+#layer-tab .sec-3 .button3{
+    background: #454545;
+    border: none;
+    padding: unset;
+    outline: none;
+    font-size: 10px;
+    padding: 1px 20px;
+    color: white;
+    border: 1px solid #80808087;
+}
+#layer-tab .imgsec ul{
+    list-style: none;
+    display: flex;
+    
+}
+#layer-tab .imgsec ul li{
+    padding:5px;
+}
+#layer-tab .imgsec ul li a img{
+    vertical-align: super;
+    height: 10px;
+    margin-top: 5px;
+}
+#layer-tab .sec-2{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+}
+#layer-tab .sec-2 p{
+    font-size: 10px;
+    margin-right: 12px;
+    color: white;
+    margin-top: 6px;
+    margin-left: 12px
+}
+.sec-3 p:first-child {
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+#layer-tab .sec-3{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+}
+#layer-tab .sec-3 .imgsec{
+    margin-left: -30px
+}
+.sec-3 p {
+    color: white;
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-right: 6px;
+}
+#layer-tab .sec-4{
+    display: flex;
+    height: 40px;
+    border-bottom: 1px solid black;
+    padding: 0px 10px;
+}
+#layer-tab .sec-4  img{
+    vertical-align: middle;
+    height: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#layer-tab .sec-4 .left-sec {
+    width: 12%;
+}
+#layer-tab .sec-4 .right-sec {
+    width: 82%;
+    background: #6b6b6b;
+    display: flex;
+    color: white;
+    font-size: 12px;
+    align-items: center;
+}
+#layer-tab .sec-4 .right-sec .box{
+    border: 1px solid black;
+    height: 80%;
+    width: 15%;
+    margin: 4px;
+}
+#layer-tab .sec-4 .right-sec p{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.homebg{
+    background: #fff;
+    height: 100%;
+    position: relative;
+}
+.homebg .header{
+    background-color: white;
+   
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%,10%);
+    left: 50%;
+}
+.spcross{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    height: 8px;
+    cursor: pointer;
+}

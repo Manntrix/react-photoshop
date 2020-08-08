@@ -1,0 +1,12 @@
+
+#fullpage{
+    background: black;
+    height: 100vh;
+}
+
+.section{
+    height: unset !important;
+}
+.fp-tableCell{
+    height: unset !important;
+}
